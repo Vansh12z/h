@@ -78,7 +78,7 @@ class Queue:
             for annotation_id in annotation_ids
         )
 
-    def add_annotations_between_times(self, start_time, end_time, tag, force=False):
+    def add_annotations_between_times(self, start_time, end_time, tag, force=True):
         """
         Queue all annotations between two times to be synced to Elasticsearch.
 
